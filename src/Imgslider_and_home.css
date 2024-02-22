@@ -1,0 +1,55 @@
+#btn {
+  width: 70px;
+  height: 250px;
+  background-color: rgba(225, 225, 225, 0);
+  border: none;
+}
+.pack {
+  width: 310px;
+  height: 400px;
+  background-color: white;
+  margin: auto;
+}
+#header {
+  width: 100%;
+  height: 50px;
+  color: black;
+}
+#items {
+  width: 100%;
+  height: 300px;
+}
+#img {
+  width: 130px;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+}
+#packContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 15px;
+}
+#clickbtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#btn:hover {
+  border: 20px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(233, 167, 13);
+}
+
+@media screen and (max-width: 800px) {
+  #packContainer {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #packContainer {
+    grid-template-columns: auto;
+  }
+}

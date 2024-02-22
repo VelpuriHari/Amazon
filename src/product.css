@@ -1,0 +1,47 @@
+._body {
+  width: 255px;
+  height: 590px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+.img_div {
+  width: 100%;
+}
+#seller_type {
+  width: 50%;
+
+  text-align: center;
+  color: aliceblue;
+  font-size: small;
+  background-color: rgb(216, 99, 10);
+}
+#_img {
+  width: 100%;
+  height: 250px;
+}
+.info_div {
+  width: 90%;
+  margin: auto;
+}
+#description {
+  width: 100%;
+}
+
+.rating {
+  height: 50px;
+}
+.price_div i {
+  font-size: 1.7em;
+}
+#p {
+  color: rgb(69, 166, 246);
+}
+#deal {
+  width: 50%;
+  color: aliceblue;
+  background-color: rgb(163, 5, 5);
+  text-align: center;
+  font-size: small;
+  padding: 5px;
+}
