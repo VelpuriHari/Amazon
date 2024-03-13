@@ -3,10 +3,19 @@
 }
 .Category_filter {
   width: 25%;
-  height: 100vh;
+  height: 70vh;
   background-color: rgb(251, 252, 253);
-  margin: 0 5px 0;
+  margin: 20px 5px 0;
 }
+#_items_ {
+  height: 40px;
+  margin: 10px;
+  font-size: 1.5em;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
 @media screen and (max-width: 600px) {
   ._container {
     display: grid;
@@ -14,5 +23,8 @@
   .Category_filter {
     width: 100%;
     height: 100px;
+  }
+  #packContainer {
+    margin-top: 200px;
   }
 }
