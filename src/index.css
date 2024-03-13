@@ -5,7 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
-  background-color: rgba(66, 70, 69, 0.129);
+  background-color: rgba(93, 99, 97, 0.129);
   margin: 0px;
 }
 
@@ -15,7 +15,7 @@ code {
 }
 .header {
   width: 100%;
-  height: 75px;
+  height: 60px;
   background-color: rgb(7, 7, 37);
   display: flex;
 }
@@ -26,57 +26,64 @@ code {
 h1 {
   font-style: oblique;
 }
-#logo {
-  width: 100px;
-  height: 35px;
-  margin: 30px 10px;
+#_logo {
+  width: 70%;
+  height: 60%;
+  margin: 17px 0 0 15px;
 }
 #logo_div {
   width: 15%;
-  height: 100px;
+  height: 100%;
 }
 #search_div {
   width: 50%;
-  height: 40px;
+  height: 100%;
   display: flex;
-  margin: auto 0 auto 0;
 }
 #search {
   width: 100%;
-  height: 40px;
+  height: 70%;
   border-radius: 10px;
+  color: black;
+  margin: auto;
 }
 #location_div {
   font-style: oblique;
   width: 25%;
+  display: flex;
+}
+#location_img {
+  font-size: 1.5em;
+  margin: auto 0 0 0;
 }
 .boxs {
-  width: 25%;
-  height: 70px;
+  width: 30%;
+  height: 100%;
   display: flex;
 }
 #box1 {
   width: 25%;
-  height: 70px;
+  height: 100%;
   padding: 10px;
   align-items: center;
   display: flex;
 }
 #box2 {
   width: 35%;
-  height: 70px;
+  height: 100%;
   align-items: center;
 }
 #box3 {
   width: 30%;
-  height: 70px;
+  height: 100%;
   align-items: center;
 }
 #box4 {
   width: 20%;
-  height: 70px;
+  height: 100%;
   align-items: center;
   display: flex;
+  color: aliceblue;
 }
 
 .foot {
@@ -87,16 +94,19 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
-  .foot,
   #location_div,
+  #item,
   .boxs {
     width: 0%;
     height: 0%;
     display: none;
   }
+  #_logo {
+    width: 100px;
+  }
   .header {
     display: grid;
-    height: 100px;
+    height: 55px;
     grid-template-columns: auto auto;
   }
 
@@ -106,8 +116,9 @@ h1 {
     grid-template-columns: auto auto;
   }
 
-  #search_div {
-    width: 225px;
+  #search_div,
+  #search {
+    width: 240px;
     margin: auto;
   }
 }

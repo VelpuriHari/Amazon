@@ -1,0 +1,63 @@
+.singinbody {
+  color: black;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+}
+#logo {
+  width: 100px;
+  height: 50px;
+  margin: 20px auto auto auto;
+}
+#logo img {
+  width: 125px;
+  height: 60px;
+}
+
+.singinContainer {
+  width: 350px;
+  height: 425px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 7px;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+}
+#sing_div_1 {
+  width: 300px;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 1.9em;
+  margin: auto;
+}
+#sing_div_3,
+#sing_div_2 {
+  width: 300px;
+}
+#sing_div_3 input,
+#sing_div_2 input {
+  width: 300px;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: center;
+}
+#sing_div_4 {
+  width: 315px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(231, 193, 27);
+  text-align: center;
+}
+#sing_div_5,
+#sing_div_6,
+#sing_div_7 {
+  width: 300px;
+  border-radius: 7px;
+  font-size: small;
+}
+.createAccount {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+}

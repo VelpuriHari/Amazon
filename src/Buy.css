@@ -1,0 +1,37 @@
+.buy_body {
+  width: 350px;
+  height: 400px;
+  color: black;
+  display: grid;
+  margin: auto;
+  padding: 10px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: rgb(252, 253, 253);
+}
+.buy_body img {
+  border: solid;
+  border-color: gold;
+  border-width: 2px;
+}
+#buy_logo {
+  width: 100px;
+  margin: 20px auto auto auto;
+}
+#buy_logo img {
+  width: 100px;
+}
+#buy_thank {
+  width: 200px;
+  margin: 20px auto auto auto;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .buy_body {
+    width: 300px;
+  }
+}

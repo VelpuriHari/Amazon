@@ -10,21 +10,29 @@
   display: flex;
 }
 #image {
-  width: 60%;
+  width: 55%;
   height: 100%;
 }
 #imaGe {
   width: 80%;
   padding: 20px;
 }
+#image :hover {
+  transform: scale(1.1);
+  border: solid;
+  border-color: rgb(234, 162, 17);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 #info {
-  width: 60%;
+  width: 65%;
   height: 100%;
   display: flex;
   overflow: auto;
 }
 #item_info {
-  width: 60%;
+  width: 55%;
   height: 100%;
 }
 #item_info::-webkit-scrollbar {
@@ -50,7 +58,7 @@ span {
   color: rgb(4, 110, 62);
 }
 #delivery_info {
-  width: 30%;
+  width: 33%;
   height: 100%;
   border-radius: 10px;
   border: solid;
@@ -106,9 +114,24 @@ span {
   border-radius: 5px;
 }
 @media screen and (max-width: 800px) {
+  #about_item {
+    width: 0px;
+    height: 0px;
+    display: none;
+  }
   #info,
   .parent {
     width: 100%;
     display: grid;
+  }
+  #image {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  #item_info,
+  #delivery_info {
+    width: 95%;
+    margin: auto;
   }
 }

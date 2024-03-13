@@ -1,0 +1,48 @@
+.createAccountContainer {
+  width: 350px;
+  height: 95vh;
+  color: black;
+  border: solid;
+  border-width: 1px;
+  border-radius: 7px;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+}
+#logo {
+  width: 100px;
+  height: 50px;
+  margin: 20px auto auto auto;
+}
+#logo img {
+  width: 125px;
+  height: 60px;
+}
+#div_1 {
+  width: 300px;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 1.9em;
+  margin: auto;
+}
+#div_3,
+#div_2,
+#div_4,
+#div_5 {
+  width: 300px;
+}
+#div_3 input,
+#div_2 input,
+#div_4 input {
+  width: 300px;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: center;
+}
+#div_6 {
+  width: 315px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(231, 193, 27);
+  text-align: center;
+}

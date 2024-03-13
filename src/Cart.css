@@ -1,0 +1,72 @@
+.cart {
+  color: black;
+  margin: 10px;
+}
+#cart_cont {
+  width: 90%;
+  height: 200px;
+  margin-top: 10px;
+  display: flex;
+  background-color: white;
+}
+#cart_cont img {
+  width: 250px;
+  height: 100%;
+}
+
+#info_ {
+  width: 50%;
+  margin: 5px;
+}
+.right_div {
+  width: 30%;
+  display: grid;
+  justify-content: space-between;
+}
+#first_right_div {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+#second_right_div {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#remove {
+  width: 60px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: rgb(227, 246, 19);
+}
+#buy {
+  width: 60px;
+  padding: 7px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(255, 145, 0);
+}
+@media screen and (max-width: 800px) {
+  #info_ {
+    overflow: hidden;
+    display: none;
+  }
+  #cart_cont {
+    width: 100%;
+  }
+  #first_right_div,
+  #second_right_div {
+    display: grid;
+    justify-content: space-around;
+  }
+  #cart_cont img {
+    width: 200px;
+    height: 200px;
+  }
+  #bottom_div,
+  #deal_ {
+    display: none;
+  }
+}

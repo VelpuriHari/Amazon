@@ -1,0 +1,32 @@
+.footbody {
+  width: 100%;
+  height: 50vh;
+  background-color: #282c34;
+  color: white;
+  margin-top: 20px;
+}
+#foot_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footbody img {
+  width: 100px;
+  height: 40px;
+  margin: 10px auto auto auto;
+}
+#thank {
+  text-align: center;
+  font-size: 2em;
+  margin: 50px auto auto auto;
+  display: grid;
+}
+@media screen and (max-width: 800px) {
+  #foot_1 {
+    display: grid;
+  }
+  .footbody {
+    height: 38vh;
+  }
+}
