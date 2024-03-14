@@ -68,9 +68,9 @@ function Head() {
             </div>
             <div style={{ width: "100px" }}>& Orders</div>
           </div>
-          <Link to="/cart" style={{ textDecoration: "none" }} target="blank">
+          <NavLink to="/cart" style={{ textDecoration: "none" }} target="blank">
             <div id="box4">🛒Cart</div>
-          </Link>
+          </NavLink>
         </div>
       </div>
       <div

@@ -4,7 +4,7 @@ import "./Imgslider_and_home.css";
 import "./Comp.css";
 import Head from "./Menu";
 import ProductInfo from "./ProductInfo";
-import { Link, useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import Foot from "./Foot";
 
 export default function Comp() {
@@ -37,12 +37,12 @@ export default function Comp() {
           {items.map((n) => {
             return (
               <>
-                <Link
+                <NavLink
                   to={n.link}
                   style={{ textDecoration: "none", color: "black" }}
                 >
                   <div id="_items_">{n.value}</div>
-                </Link>
+                </NavLink>
               </>
             );
           })}
