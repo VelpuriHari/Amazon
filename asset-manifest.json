@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/VelpuriHari/Amazon/static/css/main.a713991d.css",
-    "main.js": "/VelpuriHari/Amazon/static/js/main.b0b585d4.js",
-    "static/js/787.d4aba7ab.chunk.js": "/VelpuriHari/Amazon/static/js/787.d4aba7ab.chunk.js",
-    "static/media/slick.svg": "/VelpuriHari/Amazon/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/VelpuriHari/Amazon/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/VelpuriHari/Amazon/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/VelpuriHari/Amazon/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/VelpuriHari/Amazon/index.html",
-    "main.a713991d.css.map": "/VelpuriHari/Amazon/static/css/main.a713991d.css.map",
-    "main.b0b585d4.js.map": "/VelpuriHari/Amazon/static/js/main.b0b585d4.js.map",
-    "787.d4aba7ab.chunk.js.map": "/VelpuriHari/Amazon/static/js/787.d4aba7ab.chunk.js.map"
+    "main.css": "/Amazon/static/css/main.f0b2ad28.css",
+    "main.js": "/Amazon/static/js/main.68e159a8.js",
+    "static/js/787.d4aba7ab.chunk.js": "/Amazon/static/js/787.d4aba7ab.chunk.js",
+    "static/media/slick.svg": "/Amazon/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Amazon/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Amazon/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Amazon/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Amazon/index.html",
+    "main.f0b2ad28.css.map": "/Amazon/static/css/main.f0b2ad28.css.map",
+    "main.68e159a8.js.map": "/Amazon/static/js/main.68e159a8.js.map",
+    "787.d4aba7ab.chunk.js.map": "/Amazon/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a713991d.css",
-    "static/js/main.b0b585d4.js"
+    "static/css/main.f0b2ad28.css",
+    "static/js/main.68e159a8.js"
   ]
 }
