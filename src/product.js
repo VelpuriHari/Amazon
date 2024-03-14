@@ -6,11 +6,7 @@ import ProductInfo from "./ProductInfo";
 export default function Product({ item, Id }) {
   const n = Id.id;
   return (
-    <NavLink
-      to={`/item/${item}/${n}`}
-      style={{ textDecoration: "none" }}
-      target="_blank"
-    >
+    <NavLink to={`/item/${item}/${n}`} style={{ textDecoration: "none" }}>
       <div className="_body">
         <div className="img_div">
           <div id="img_div">
